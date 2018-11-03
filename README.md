@@ -1,52 +1,122 @@
-# Academic Kickstart
+![Hugo](https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png)
 
-**Academic** is a framework to help you create a beautiful website quickly. Perfect for personal, student, or academic websites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).
+A Fast and Flexible Static Site Generator built with love by [bep](https://github.com/bep), [spf13](http://spf13.com/) and [friends](https://github.com/gohugoio/hugo/graphs/contributors) in [Go][].
 
-**Academic Kickstart** provides a minimal template to kickstart your new website by following the simple steps below.
+[Website](https://gohugo.io) |
+[Forum](https://discourse.gohugo.io) |
+[Developer Chat (no support)](https://gitter.im/spf13/hugo) |
+[Documentation](https://gohugo.io/getting-started/) |
+[Installation Guide](https://gohugo.io/getting-started/installing/) |
+[Contribution Guide](CONTRIBUTING.md) |
+[Twitter](https://twitter.com/gohugoio)
 
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
+[![GoDoc](https://godoc.org/github.com/gohugoio/hugo?status.svg)](https://godoc.org/github.com/gohugoio/hugo)
+[![Linux and macOS Build Status](https://api.travis-ci.org/gohugoio/hugo.svg?branch=master&label=Linux+and+macOS+build "Linux and macOS Build Status")](https://travis-ci.org/gohugoio/hugo)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/a5mr220vsd091kua?svg=true&label=Windows+build "Windows Build Status")](https://ci.appveyor.com/project/bep/hugo/branch/master)
+[![Dev chat at https://gitter.im/spf13/hugo](https://img.shields.io/badge/gitter-developer_chat-46bc99.svg)](https://gitter.im/spf13/hugo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gohugoio/hugo)](https://goreportcard.com/report/github.com/gohugoio/hugo)
 
-## Getting Started
+## Overview
 
-The following two methods describe how to install in the cloud using your web browser and how to install on your PC using the Command Prompt/Terminal app.
+Hugo is a static HTML and CSS website generator written in [Go][].
+It is optimized for speed, ease of use, and configurability.
+Hugo takes a directory with content and templates and renders them into a full HTML website.
 
-### Quick install using your web browser
+Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory.
+This works well for shared hosts and other systems where you don’t have a privileged account.
 
-1. [Install Academic with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)
-    * Netlify will provide you with a customizable URL to access your new site
-2. On GitHub, go to your newly created `academic-kickstart` repository and edit `config.toml` to personalize your site. Shortly after saving the file, your site will automatically update
-3. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content. For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://themes.gohugo.io/theme/academic/)
+Hugo renders a typical website of moderate size in a fraction of a second.
+A good rule of thumb is that each piece of content renders in around 1 millisecond.
 
-### Install on your PC
+Hugo is designed to work well for any kind of website including blogs, tumbles, and docs.
 
-Prerequisites:
+#### Supported Architectures
 
-* [Download and install Git](https://git-scm.com/downloads)
-* [Download and install Hugo](https://gohugo.io/getting-started/installing/#quick-install)
+Currently, we provide pre-built Hugo binaries for Windows, Linux, FreeBSD, NetBSD, macOS (Darwin), and [Android](https://gist.github.com/bep/a0d8a26cf6b4f8bc992729b8e50b480b) for x64, i386 and ARM architectures.
 
-1. Clone (or [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) or [download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip)) the *Academic Kickstart* repository with Git: 
+Hugo may also be compiled from source wherever the Go compiler tool chain can run, e.g. for other operating systems including DragonFly BSD, OpenBSD, Plan 9, and Solaris.
 
-       git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-    
-    *Note that if you forked Academic Kickstart, the above command should be edited to clone your fork.*
+**Complete documentation is available at [Hugo Documentation](https://gohugo.io/getting-started/).**
 
-2. Initialize the theme:
+## Choose How to Install
 
-       cd My_Website
-       git submodule update --init --recursive
+If you want to use Hugo as your site generator, simply install the Hugo binaries.
+The Hugo binaries have no external dependencies.
 
-3. View your new website:
-      
-       hugo server
+To contribute to the Hugo source code or documentation, you should [fork the Hugo GitHub project](https://github.com/gohugoio/hugo#fork-destination-box) and clone it to your local machine.
 
-    Now you can go to [localhost:1313](http://localhost:1313) and your new Academic powered website should appear.
-  
-4. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content, customize your site, and deploy it.
+Finally, you can install the Hugo source code with `go`, build the binaries yourself, and run Hugo that way.
+Building the binaries is an easy task for an experienced `go` getter.
 
-## License
+### Install Hugo as Your Site Generator (Binary Install)
 
-Copyright 2017 [George Cushen](https://georgecushen.com).
+Use the [installation instructions in the Hugo documentation](https://gohugo.io/getting-started/installing/).
 
-Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
+### Build and Install the Binaries from Source (Advanced Install)
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+#### Prerequisite Tools
+
+* [Git](https://git-scm.com/)
+* [Go (at least Go 1.11)](https://golang.org/dl/)
+
+#### Fetch from GitHub
+
+Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build. The easiest is to clone Hugo in a directory outside of `GOPATH`, as in the following example:
+
+```bash
+mkdir $HOME/src
+cd $HOME/src
+git clone https://github.com/gohugoio/hugo.git
+cd hugo
+go install
+```
+
+**If you are a Windows user, substitute the `$HOME` environment variable above with `%USERPROFILE%`.**
+	
+## The Hugo Documentation
+
+The Hugo documentation now lives in its own repository, see https://github.com/gohugoio/hugoDocs. But we do keep a version of that documentation as a `git subtree` in this repository. To build the sub folder `/docs` as a Hugo site, you need to clone this repo:
+
+```bash
+git clone git@github.com:gohugoio/hugo.git
+```
+## Contributing to Hugo
+
+For a complete guide to contributing to Hugo, see the [Contribution Guide](CONTRIBUTING.md).
+
+We welcome contributions to Hugo of any kind including documentation, themes,
+organization, tutorials, blog posts, bug reports, issues, feature requests,
+feature implementations, pull requests, answering questions on the forum,
+helping to manage issues, etc.
+
+The Hugo community and maintainers are [very active](https://github.com/gohugoio/hugo/pulse/monthly) and helpful, and the project benefits greatly from this activity.
+
+### Asking Support Questions
+
+We have an active [discussion forum](https://discourse.gohugo.io) where users and developers can ask questions.
+Please don't use the GitHub issue tracker to ask questions.
+
+### Reporting Issues
+
+If you believe you have found a defect in Hugo or its documentation, use
+the GitHub issue tracker to report the problem to the Hugo maintainers.
+If you're not sure if it's a bug or not, start by asking in the [discussion forum](https://discourse.gohugo.io).
+When reporting the issue, please provide the version of Hugo in use (`hugo version`).
+
+### Submitting Patches
+
+The Hugo project welcomes all contributors and contributions regardless of skill or experience level.
+If you are interested in helping with the project, we will help you with your contribution.
+Hugo is a very active project with many contributions happening daily.
+
+Because we want to create the best possible product for our users and the best contribution experience for our developers,
+we have a set of guidelines which ensure that all contributions are acceptable.
+The guidelines are not intended as a filter or barrier to participation.
+If you are unfamiliar with the contribution process, the Hugo team will help you and teach you how to bring your contribution in accordance with the guidelines.
+
+For a complete guide to contributing code to Hugo, see the [Contribution Guide](CONTRIBUTING.md).
+
+[![Analytics](https://ga-beacon.appspot.com/UA-7131036-6/hugo/readme)](https://github.com/igrigorik/ga-beacon)
+
+[Go]: https://golang.org/
+[Hugo Documentation]: https://gohugo.io/overview/introduction/

@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Classic"
+
+# Optional Google font URL
+google_fonts = "Averia+Serif+Libre|Merriweather|Roboto+Mono"
+
+# Font families
+heading_font = "Averia Serif Libre"
+body_font = "Averia Serif Libre"
+nav_font = "Averia Serif Libre"
+mono_font = "Averia Serif Libre"
+
+# Font size
+font_size = "18"
+font_size_small = "12"

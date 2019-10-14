@@ -43,6 +43,17 @@ My research interest lies in machine learning and its applications. I am current
 <span style="font-size:larger;">Selected Publications:</space>
 
 
+Anqi Liu, Guanya Shi, Soon-Jo Chung, Anima Anandkumar, and Yisong Yue "Robust Regression for Safe Exploration in Control", On Arxiv.
+
+Sima Behpour, Anqi Liu, and Brian Ziebart "Active Learning for Probabilistic Structured Prediction of Cuts and Matchings", In ICML2019.
+
+Kamyar Azizzadenesheli, Anqi Liu, Fanny Yang, and Anima Anandkumar "Regularized learning for domain adaptation under label shifts", In ICLR2019.
+
+
+Rizal Fathony, Kaiser Asif, Anqi Liu, MA Bashiri, Wei Xing, Sima Behpour, Xinhua Zhang, and Brian Ziebart "Consistent Robust Adversarial Prediction for General Multiclass Classification", On Arxiv.
+
+
+Anqi Liu and Brian Ziebart "Robust Covariate Shift Prediction with General Losses and Feature Views", On Arxiv.
 
 Rizal Fathony, Anqi Liu, Kaiser Asif, Brian D. Ziebart “Adversarial Multiclass Classification: A Risk Minimization Perspective”, In NIPS2016.
 

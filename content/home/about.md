@@ -52,7 +52,8 @@ Anqi Liu, Maya Srikanth, Nicholas Adams-Cohen, R. Michael Alvarez, and Anima Ana
 Quanying Liu, Haiyan Wu, Anqi Liu "[Modeling and Interpreting Real-world Human Risk Decision Making with Inverse Reinforcement Learning](https://arxiv.org/abs/1906.05803)", in Real-world Sequential Decision Making Workshop at ICML 2019.
 
 <span style="font-size:larger;">Selected Publications:</space>
-Anqi Liu, Hao Liu, Anima Anandkumar, and Yisong Yue "Triply Robust Off-Policy Evaluation", 
+    
+<!-- Anqi Liu, Hao Liu, Anima Anandkumar, and Yisong Yue "Triply Robust Off-Policy Evaluation",  -->
 
 Anqi Liu, Guanya Shi, Soon-Jo Chung, Anima Anandkumar, and Yisong Yue "[Robust Regression for Safe Exploration in Control](https://arxiv.org/abs/1906.05819)", On Arxiv.
 

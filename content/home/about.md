@@ -58,15 +58,17 @@ Anqi Liu, Hao Liu, Anima Anandkumar, and Yisong Yue "Triply Robust Off-Policy Ev
 
 Anqi Liu, Guanya Shi, Soon-Jo Chung, Anima Anandkumar, and Yisong Yue "[Robust Regression for Safe Exploration in Control](https://arxiv.org/abs/1906.05819)", On Arxiv.
 
-Sima Behpour, Anqi Liu, and Brian Ziebart "[Active Learning for Probabilistic Structured Prediction of Cuts and Matchings](http://proceedings.mlr.press/v97/behpour19a.html)", In ICML2019.
+Sima Behpour, Anqi Liu, and Brian D. Ziebart "[Active Learning for Probabilistic Structured Prediction of Cuts and Matchings](http://proceedings.mlr.press/v97/behpour19a.html)", In ICML2019.
 
 Kamyar Azizzadenesheli, Anqi Liu, Fanny Yang, and Anima Anandkumar "[Regularized learning for domain adaptation under label shifts](https://arxiv.org/abs/1903.09734)", In ICLR2019.
 
 
-Rizal Fathony, Kaiser Asif, Anqi Liu, MA Bashiri, Wei Xing, Sima Behpour, Xinhua Zhang, and Brian Ziebart "[Consistent Robust Adversarial Prediction for General Multiclass Classification](https://arxiv.org/abs/1812.07526)", On Arxiv.
+Rizal Fathony, Kaiser Asif, Anqi Liu, MA Bashiri, Wei Xing, Sima Behpour, Xinhua Zhang, and Brian D. Ziebart "[Consistent Robust Adversarial Prediction for General Multiclass Classification](https://arxiv.org/abs/1812.07526)", On Arxiv.
 
 
-Anqi Liu and Brian Ziebart "[Robust Covariate Shift Prediction with General Losses and Feature Views](https://arxiv.org/abs/1712.10043)", On Arxiv.
+Anqi Liu and Brian D. Ziebart "[Robust Covariate Shift Prediction with General Losses and Feature Views](https://arxiv.org/abs/1712.10043)", On Arxiv.
+
+Anqi Liu, Rizal Fathony, and Brian D. Ziebart "[Kernel Robust Bias-Aware Prediction under Covariate Shift](https://arxiv.org/abs/1712.10050)", On Arxiv.
 
 Rizal Fathony, Anqi Liu, Kaiser Asif, Brian D. Ziebart “[Adversarial Multiclass Classification: A Risk Minimization Perspective](http://papers.nips.cc/paper/6088-adversarial-multiclass-classification-a-risk-minimization-perspective)”, In NIPS2016.
 

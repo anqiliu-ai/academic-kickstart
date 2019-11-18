@@ -47,14 +47,14 @@ My research interest lies in machine learning and its applications. I am current
 
 Hao Liu, Anqi Liu, Tongxin Li, Anima Anandkumar "Disentangling Causal Effects from Latent Confounders using Interventions", in NeurIPS Workshop on Causal Machine Learning, 2019. PDF coming soon.
 
-Anqi Liu, Maya Srikanth, Nicholas Adams-Cohen, R. Michael Alvarez, and Anima Anandkumar "Finding Social Media Trolls: Dynamic Keyword Selection Methods for Rapidly-Evolving Online Debates", in NeurIPS Joint Workshop on AI for Social Good, 2019. PDF coming soon.
+Anqi Liu, Maya Srikanth, Nicholas Adams-Cohen, R. Michael Alvarez, and Anima Anandkumar "[Finding Social Media Trolls: Dynamic Keyword Selection Methods for Rapidly-Evolving Online Debates](https://arxiv.org/abs/1911.05332)", in NeurIPS Joint Workshop on AI for Social Good, 2019.
 
 Quanying Liu, Haiyan Wu, Anqi Liu "[Modeling and Interpreting Real-world Human Risk Decision Making with Inverse Reinforcement Learning](https://arxiv.org/abs/1906.05803)", in Real-world Sequential Decision Making Workshop at ICML 2019.
 
 <br/><br/>
 <span style="font-size:larger;">Selected Papers:</space>
 
-Anqi Liu, Hao Liu, Anima Anandkumar, and Yisong Yue "Triply Robust Off-Policy Evaluation", Link coming soon.
+Anqi Liu, Hao Liu, Anima Anandkumar, and Yisong Yue "[Triply Robust Off-Policy Evaluation](https://arxiv.org/abs/1911.05811)", On Arxiv.
 
 Anqi Liu, Guanya Shi, Soon-Jo Chung, Anima Anandkumar, and Yisong Yue "[Robust Regression for Safe Exploration in Control](https://arxiv.org/abs/1906.05819)", On Arxiv.
 
